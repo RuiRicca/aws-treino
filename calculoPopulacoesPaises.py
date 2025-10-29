@@ -1,7 +1,7 @@
 import sys
 
-paisA=sys.argv[1]
-paisB=sys.argv[2]
+paisA=int(sys.argv[1])
+paisB=int(sys.argv[2])
 anos=0
 while paisA<paisB:
     paisA+=paisA*0.03
